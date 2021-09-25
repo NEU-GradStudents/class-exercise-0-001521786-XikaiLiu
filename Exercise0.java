@@ -5,9 +5,35 @@ class Exercise0 {
 	public static void main(String[] args) {
 		System.out.println("program start...");
 		Car mycar = new Car(9899);
-		Satellite mySat = new Satellite();
-		Refrigerator myRefrige = new Refrigerator();
+		Car mycar1 = new Car();
+		Car mycar2 = new Car(98991);
+		Satellite mySat1 = new Satellite();
+		Satellite mySat2 = new Satellite(123);
+		Satellite mySat3 = new Satellite();
+		Refrigerator myRefrige1 = new Refrigerator();
+		Refrigerator myRefrige2 = new Refrigerator();
+		Refrigerator myRefrige3 = new Refrigerator();
 		Camera myCam = new Camera(128);
+		Camera myCam1 = new Camera(28);
+		Camera myCam2 = new Camera(18);
+		Microwave myMW = new Microwave();
+		Microwave myMW2 = new Microwave(123);
+		Microwave myMW3 = new Microwave(321);
+		Phone myPhone = new Phone();
+		Phone myPhone13 = new Phone(12);
+		Phone myPhone12 = new Phone(13);
+		Mouse myMouse = new Mouse();
+		Mouse myMouse2 = new Mouse(12);
+		Mouse myMouse3 = new Mouse(13);
+		Lamp myLamp1 = new Lamp();
+		Lamp myLamp2 = new Lamp(2);
+		Lamp myLamp3 = new Lamp(3);
+		Headphone myHeadphone = new Headphone();
+		Headphone myHeadphone1 = new Headphone();
+		Headphone myHeadphone2 = new Headphone();
+		Student me = new Student();
+		Student you = new Student(43);
+		Student he = new Student(24);
 		System.out.println("program end.");
 	}
 }
