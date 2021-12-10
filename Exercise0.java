@@ -1,8 +1,16 @@
+/*
+Requirements:
+Declare 10 classes based on objects around you
+Include 2 nested classes for one of class
+Each class must have at least 8 properties & 3 methods (no logic inside methods is fine, i.e., empty methods or just a print statement)
+Print a statement in constructor to indicate creation of each instance, preferably identify each instance with unique id/name
+Create a Main method to instantiate at least 3 objects of each class
+ */
 class Exercise0 {
-	// Xikai Liu, NUID: 001521786
-	// All classes have creation indicator in their constructors.
-	// When not provided, a random id will be generated for identification.
 	public static void main(String[] args) {
+		// All classes will print a message when they are being created.
+		// When not provided, a random id will be generated for identification.
+		// Car Class has two nested classes.
 		System.out.println("program start...");
 		Car mycar = new Car(9899);
 		Car mycar1 = new Car();
